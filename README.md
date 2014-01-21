@@ -1,6 +1,5 @@
-Spring Data Neo4j Showcase
+Spring Data Neo4j Web Graph
 ========
 
-Our Spring Data Neo4j showcase application for comSysto Blog Article Spring Data Neo4j (http://blog.comsysto.com/2013/07/10/spring-data-neo4j/).
-
-It uses Spring, Spring Data Neo4j and Maven to demonstrate how to recommend products based on other users' views.
+Our Spring Data Neo4j Web Graph application uses Spring, Spring Data Neo4j and Maven to demonstrate
+how to handle graph structure in WEB.
