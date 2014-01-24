@@ -47,7 +47,7 @@ public class Neo4jPersister {
         return userRepository.save(new User(id, name));
     }
 
-    private Page createPage(String url) {
+    public Page createPage(String url) {
         Page page = new Page();
         page.setUrl(url);
         return pageRepository.save(page);

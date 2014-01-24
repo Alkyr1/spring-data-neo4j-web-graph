@@ -48,9 +48,6 @@ public class Page extends IdentifiableEntity {
         return "Page{" +
                 "graphId=" + this.getGraphId() +
                 ", url=" + this.getUrl() +
-//              //", productName=" + productName +
-                //", #productsRecommendRelationships=" + productsRecommendRelationships.size() +
-                //", #userClicked=" + usersClicked.size() +
                 '}';
     }
 
