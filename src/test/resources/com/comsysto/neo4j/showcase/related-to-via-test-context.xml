@@ -11,10 +11,10 @@
     <context:spring-configured/>
     <context:annotation-config/>
 
-    <neo4j:config storeDirectory="D:\Neo4jWork\data\db_main" graphDatabaseService="graphDatabaseService"/>
-
-    <bean id="graphDatabaseService" class="org.neo4j.test.ImpermanentGraphDatabase" destroy-method="shutdown"/>
+    <neo4j:config storeDirectory="D:\Neo4jWork\data\db_main"/>
 
     <neo4j:repositories base-package="com.comsysto.neo4j.showcase.repository"/>
+
+    <context:component-scan base-package="com.comsysto.neo4j.showcase.main"/>
 
 </beans>
