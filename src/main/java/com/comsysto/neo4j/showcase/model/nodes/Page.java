@@ -22,9 +22,7 @@ public class Page extends IdentifiableEntity {
     @RelatedToVia(type = RelationshipTypes.LINK_OUT)
     private Set<Link> outLinks = new HashSet<Link>();
 
-
     public Page() {
-
     }
 
     public String getUrl() {
